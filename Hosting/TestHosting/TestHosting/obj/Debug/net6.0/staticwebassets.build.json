@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "K8TvRg5htjeF7maMv0uJRURcpwuO9ngaKq7+6TJxuMs=",
+  "Source": "TestHosting",
+  "BasePath": "_content/TestHosting",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

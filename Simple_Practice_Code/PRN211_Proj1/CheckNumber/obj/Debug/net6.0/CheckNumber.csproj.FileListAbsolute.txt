@@ -1,0 +1,15 @@
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CheckNumber\bin\Debug\net6.0\CheckNumber.exe
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CheckNumber\bin\Debug\net6.0\CheckNumber.deps.json
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CheckNumber\bin\Debug\net6.0\CheckNumber.runtimeconfig.json
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CheckNumber\bin\Debug\net6.0\CheckNumber.dll
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CheckNumber\bin\Debug\net6.0\CheckNumber.pdb
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CheckNumber\obj\Debug\net6.0\CheckNumber.csproj.AssemblyReference.cache
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CheckNumber\obj\Debug\net6.0\CheckNumber.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CheckNumber\obj\Debug\net6.0\CheckNumber.AssemblyInfoInputs.cache
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CheckNumber\obj\Debug\net6.0\CheckNumber.AssemblyInfo.cs
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CheckNumber\obj\Debug\net6.0\CheckNumber.csproj.CoreCompileInputs.cache
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CheckNumber\obj\Debug\net6.0\CheckNumber.dll
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CheckNumber\obj\Debug\net6.0\refint\CheckNumber.dll
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CheckNumber\obj\Debug\net6.0\CheckNumber.pdb
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CheckNumber\obj\Debug\net6.0\CheckNumber.genruntimeconfig.cache
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CheckNumber\obj\Debug\net6.0\ref\CheckNumber.dll

@@ -1,0 +1,14 @@
+D:\FPT\FPT_CN5\PRN211\Code\DataBaseCon\ProductMng\ProductManagement\ProductManagement.Repo\bin\Debug\net6.0\ProductManagement.Repo.deps.json
+D:\FPT\FPT_CN5\PRN211\Code\DataBaseCon\ProductMng\ProductManagement\ProductManagement.Repo\bin\Debug\net6.0\ProductManagement.Repo.runtimeconfig.json
+D:\FPT\FPT_CN5\PRN211\Code\DataBaseCon\ProductMng\ProductManagement\ProductManagement.Repo\bin\Debug\net6.0\ProductManagement.Repo.dll
+D:\FPT\FPT_CN5\PRN211\Code\DataBaseCon\ProductMng\ProductManagement\ProductManagement.Repo\bin\Debug\net6.0\ProductManagement.Repo.pdb
+D:\FPT\FPT_CN5\PRN211\Code\DataBaseCon\ProductMng\ProductManagement\ProductManagement.Repo\obj\Debug\net6.0\ProductManagement.Repo.csproj.AssemblyReference.cache
+D:\FPT\FPT_CN5\PRN211\Code\DataBaseCon\ProductMng\ProductManagement\ProductManagement.Repo\obj\Debug\net6.0\ProductManagement.Repo.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\FPT_CN5\PRN211\Code\DataBaseCon\ProductMng\ProductManagement\ProductManagement.Repo\obj\Debug\net6.0\ProductManagement.Repo.AssemblyInfoInputs.cache
+D:\FPT\FPT_CN5\PRN211\Code\DataBaseCon\ProductMng\ProductManagement\ProductManagement.Repo\obj\Debug\net6.0\ProductManagement.Repo.AssemblyInfo.cs
+D:\FPT\FPT_CN5\PRN211\Code\DataBaseCon\ProductMng\ProductManagement\ProductManagement.Repo\obj\Debug\net6.0\ProductManagement.Repo.csproj.CoreCompileInputs.cache
+D:\FPT\FPT_CN5\PRN211\Code\DataBaseCon\ProductMng\ProductManagement\ProductManagement.Repo\obj\Debug\net6.0\ProductManagement.Repo.dll
+D:\FPT\FPT_CN5\PRN211\Code\DataBaseCon\ProductMng\ProductManagement\ProductManagement.Repo\obj\Debug\net6.0\refint\ProductManagement.Repo.dll
+D:\FPT\FPT_CN5\PRN211\Code\DataBaseCon\ProductMng\ProductManagement\ProductManagement.Repo\obj\Debug\net6.0\ProductManagement.Repo.pdb
+D:\FPT\FPT_CN5\PRN211\Code\DataBaseCon\ProductMng\ProductManagement\ProductManagement.Repo\obj\Debug\net6.0\ProductManagement.Repo.genruntimeconfig.cache
+D:\FPT\FPT_CN5\PRN211\Code\DataBaseCon\ProductMng\ProductManagement\ProductManagement.Repo\obj\Debug\net6.0\ref\ProductManagement.Repo.dll

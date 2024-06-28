@@ -1,0 +1,15 @@
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\Mod17equal0\bin\Debug\net6.0\Mod17equal0.exe
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\Mod17equal0\bin\Debug\net6.0\Mod17equal0.deps.json
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\Mod17equal0\bin\Debug\net6.0\Mod17equal0.runtimeconfig.json
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\Mod17equal0\bin\Debug\net6.0\Mod17equal0.dll
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\Mod17equal0\bin\Debug\net6.0\Mod17equal0.pdb
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\Mod17equal0\obj\Debug\net6.0\Mod17equal0.csproj.AssemblyReference.cache
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\Mod17equal0\obj\Debug\net6.0\Mod17equal0.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\Mod17equal0\obj\Debug\net6.0\Mod17equal0.AssemblyInfoInputs.cache
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\Mod17equal0\obj\Debug\net6.0\Mod17equal0.AssemblyInfo.cs
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\Mod17equal0\obj\Debug\net6.0\Mod17equal0.csproj.CoreCompileInputs.cache
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\Mod17equal0\obj\Debug\net6.0\Mod17equal0.dll
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\Mod17equal0\obj\Debug\net6.0\refint\Mod17equal0.dll
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\Mod17equal0\obj\Debug\net6.0\Mod17equal0.pdb
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\Mod17equal0\obj\Debug\net6.0\Mod17equal0.genruntimeconfig.cache
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\Mod17equal0\obj\Debug\net6.0\ref\Mod17equal0.dll

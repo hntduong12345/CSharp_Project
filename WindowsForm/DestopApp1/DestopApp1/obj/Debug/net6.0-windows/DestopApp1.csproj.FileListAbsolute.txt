@@ -1,0 +1,36 @@
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\bin\Debug\net6.0-windows\DestopApp1.exe
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\bin\Debug\net6.0-windows\DestopApp1.deps.json
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\bin\Debug\net6.0-windows\DestopApp1.runtimeconfig.json
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\bin\Debug\net6.0-windows\DestopApp1.dll
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\bin\Debug\net6.0-windows\DestopApp1.pdb
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.csproj.AssemblyReference.cache
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.Form1.resources
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.csproj.GenerateResource.cache
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.AssemblyInfoInputs.cache
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.AssemblyInfo.cs
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.csproj.CoreCompileInputs.cache
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.dll
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\refint\DestopApp1.dll
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.pdb
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.genruntimeconfig.cache
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\ref\DestopApp1.dll
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.Form2.resources
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\bin\Debug\net6.0-windows\DestopApp1.exe
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\bin\Debug\net6.0-windows\DestopApp1.deps.json
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\bin\Debug\net6.0-windows\DestopApp1.runtimeconfig.json
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\bin\Debug\net6.0-windows\DestopApp1.dll
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\bin\Debug\net6.0-windows\DestopApp1.pdb
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.csproj.AssemblyReference.cache
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.Form1.resources
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.Form2.resources
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.csproj.GenerateResource.cache
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.AssemblyInfoInputs.cache
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.AssemblyInfo.cs
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.csproj.CoreCompileInputs.cache
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.dll
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\refint\DestopApp1.dll
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.pdb
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\DestopApp1.genruntimeconfig.cache
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\DestopApp1\DestopApp1\obj\Debug\net6.0-windows\ref\DestopApp1.dll

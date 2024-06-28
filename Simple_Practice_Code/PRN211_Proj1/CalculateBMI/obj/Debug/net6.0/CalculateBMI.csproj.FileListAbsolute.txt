@@ -1,0 +1,15 @@
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateBMI\bin\Debug\net6.0\CalculateBMI.exe
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateBMI\bin\Debug\net6.0\CalculateBMI.deps.json
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateBMI\bin\Debug\net6.0\CalculateBMI.runtimeconfig.json
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateBMI\bin\Debug\net6.0\CalculateBMI.dll
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateBMI\bin\Debug\net6.0\CalculateBMI.pdb
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateBMI\obj\Debug\net6.0\CalculateBMI.csproj.AssemblyReference.cache
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateBMI\obj\Debug\net6.0\CalculateBMI.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateBMI\obj\Debug\net6.0\CalculateBMI.AssemblyInfoInputs.cache
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateBMI\obj\Debug\net6.0\CalculateBMI.AssemblyInfo.cs
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateBMI\obj\Debug\net6.0\CalculateBMI.csproj.CoreCompileInputs.cache
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateBMI\obj\Debug\net6.0\CalculateBMI.dll
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateBMI\obj\Debug\net6.0\refint\CalculateBMI.dll
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateBMI\obj\Debug\net6.0\CalculateBMI.pdb
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateBMI\obj\Debug\net6.0\CalculateBMI.genruntimeconfig.cache
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateBMI\obj\Debug\net6.0\ref\CalculateBMI.dll

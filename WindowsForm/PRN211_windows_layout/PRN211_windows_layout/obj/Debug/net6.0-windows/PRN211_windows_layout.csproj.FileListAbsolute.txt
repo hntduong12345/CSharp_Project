@@ -1,0 +1,17 @@
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\bin\Debug\net6.0-windows\PRN211_windows_layout.exe
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\bin\Debug\net6.0-windows\PRN211_windows_layout.deps.json
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\bin\Debug\net6.0-windows\PRN211_windows_layout.runtimeconfig.json
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\bin\Debug\net6.0-windows\PRN211_windows_layout.dll
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\bin\Debug\net6.0-windows\PRN211_windows_layout.pdb
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\obj\Debug\net6.0-windows\PRN211_windows_layout.csproj.AssemblyReference.cache
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\obj\Debug\net6.0-windows\PRN211_windows_layout.Form1.resources
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\obj\Debug\net6.0-windows\PRN211_windows_layout.csproj.GenerateResource.cache
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\obj\Debug\net6.0-windows\PRN211_windows_layout.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\obj\Debug\net6.0-windows\PRN211_windows_layout.AssemblyInfoInputs.cache
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\obj\Debug\net6.0-windows\PRN211_windows_layout.AssemblyInfo.cs
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\obj\Debug\net6.0-windows\PRN211_windows_layout.csproj.CoreCompileInputs.cache
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\obj\Debug\net6.0-windows\PRN211_windows_layout.dll
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\obj\Debug\net6.0-windows\refint\PRN211_windows_layout.dll
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\obj\Debug\net6.0-windows\PRN211_windows_layout.pdb
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\obj\Debug\net6.0-windows\PRN211_windows_layout.genruntimeconfig.cache
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\PRN211_windows_layout\PRN211_windows_layout\obj\Debug\net6.0-windows\ref\PRN211_windows_layout.dll

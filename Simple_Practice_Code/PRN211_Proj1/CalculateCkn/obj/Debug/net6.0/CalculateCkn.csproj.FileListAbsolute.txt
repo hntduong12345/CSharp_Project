@@ -1,0 +1,15 @@
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateCkn\bin\Debug\net6.0\CalculateCkn.exe
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateCkn\bin\Debug\net6.0\CalculateCkn.deps.json
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateCkn\bin\Debug\net6.0\CalculateCkn.runtimeconfig.json
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateCkn\bin\Debug\net6.0\CalculateCkn.dll
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateCkn\bin\Debug\net6.0\CalculateCkn.pdb
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateCkn\obj\Debug\net6.0\CalculateCkn.csproj.AssemblyReference.cache
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateCkn\obj\Debug\net6.0\CalculateCkn.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateCkn\obj\Debug\net6.0\CalculateCkn.AssemblyInfoInputs.cache
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateCkn\obj\Debug\net6.0\CalculateCkn.AssemblyInfo.cs
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateCkn\obj\Debug\net6.0\CalculateCkn.csproj.CoreCompileInputs.cache
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateCkn\obj\Debug\net6.0\CalculateCkn.dll
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateCkn\obj\Debug\net6.0\refint\CalculateCkn.dll
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateCkn\obj\Debug\net6.0\CalculateCkn.pdb
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateCkn\obj\Debug\net6.0\CalculateCkn.genruntimeconfig.cache
+D:\FPT\FPT CN5\PRN211\Code\Simple_Practice_Code\PRN211_Proj1\CalculateCkn\obj\Debug\net6.0\ref\CalculateCkn.dll

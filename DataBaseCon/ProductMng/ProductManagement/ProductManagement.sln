@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagementApp", "ProductManagement\ProductManagementApp.csproj", "{ED17A965-821D-45F0-8C4C-3EF598AC4EAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagement.Repo", "ProductManagement.Repo\ProductManagement.Repo.csproj", "{492C3441-458F-4409-998A-3033C88EA7DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED17A965-821D-45F0-8C4C-3EF598AC4EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED17A965-821D-45F0-8C4C-3EF598AC4EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED17A965-821D-45F0-8C4C-3EF598AC4EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED17A965-821D-45F0-8C4C-3EF598AC4EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{492C3441-458F-4409-998A-3033C88EA7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492C3441-458F-4409-998A-3033C88EA7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492C3441-458F-4409-998A-3033C88EA7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492C3441-458F-4409-998A-3033C88EA7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66C40B95-7755-4B5B-B876-27F3E04DD486}
+	EndGlobalSection
+EndGlobal

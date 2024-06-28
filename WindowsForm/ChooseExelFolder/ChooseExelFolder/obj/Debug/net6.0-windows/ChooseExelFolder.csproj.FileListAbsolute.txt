@@ -1,0 +1,43 @@
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\bin\Debug\net6.0-windows\ChooseExelFolder.exe
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\bin\Debug\net6.0-windows\ChooseExelFolder.deps.json
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\bin\Debug\net6.0-windows\ChooseExelFolder.runtimeconfig.json
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\bin\Debug\net6.0-windows\ChooseExelFolder.dll
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\bin\Debug\net6.0-windows\ChooseExelFolder.pdb
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.csproj.AssemblyReference.cache
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.Form1.resources
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.csproj.GenerateResource.cache
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.AssemblyInfoInputs.cache
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.AssemblyInfo.cs
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.csproj.CoreCompileInputs.cache
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.dll
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\refint\ChooseExelFolder.dll
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.pdb
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.genruntimeconfig.cache
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ref\ChooseExelFolder.dll
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\Interop.Office.dll
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.csproj.ResolveComReference.cache
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
+D:\FPT\FPT CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.csproj.CopyComplete
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\bin\Debug\net6.0-windows\ChooseExelFolder.exe
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\bin\Debug\net6.0-windows\ChooseExelFolder.deps.json
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\bin\Debug\net6.0-windows\ChooseExelFolder.runtimeconfig.json
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\bin\Debug\net6.0-windows\ChooseExelFolder.dll
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\bin\Debug\net6.0-windows\ChooseExelFolder.pdb
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.csproj.AssemblyReference.cache
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.csproj.ResolveComReference.cache
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.Form1.resources
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.csproj.GenerateResource.cache
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.AssemblyInfoInputs.cache
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.AssemblyInfo.cs
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.csproj.CoreCompileInputs.cache
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.csproj.CopyComplete
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.dll
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\refint\ChooseExelFolder.dll
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.pdb
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ChooseExelFolder.genruntimeconfig.cache
+D:\FPT\FPT_CN5\PRN211\Code\WindowsForm\ChooseExelFolder\ChooseExelFolder\obj\Debug\net6.0-windows\ref\ChooseExelFolder.dll

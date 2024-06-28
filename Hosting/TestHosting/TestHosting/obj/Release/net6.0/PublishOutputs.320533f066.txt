@@ -1,0 +1,11 @@
+D:\FPT\FPT_CN5\PRN211\Code\Hosting\TestHosting\TestHosting\obj\Release\net6.0\PubTmp\Out\TestHosting.exe
+D:\FPT\FPT_CN5\PRN211\Code\Hosting\TestHosting\TestHosting\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\FPT\FPT_CN5\PRN211\Code\Hosting\TestHosting\TestHosting\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\FPT\FPT_CN5\PRN211\Code\Hosting\TestHosting\TestHosting\obj\Release\net6.0\PubTmp\Out\TestHosting.dll
+D:\FPT\FPT_CN5\PRN211\Code\Hosting\TestHosting\TestHosting\obj\Release\net6.0\PubTmp\Out\TestHosting.deps.json
+D:\FPT\FPT_CN5\PRN211\Code\Hosting\TestHosting\TestHosting\obj\Release\net6.0\PubTmp\Out\TestHosting.runtimeconfig.json
+D:\FPT\FPT_CN5\PRN211\Code\Hosting\TestHosting\TestHosting\obj\Release\net6.0\PubTmp\Out\TestHosting.pdb
+D:\FPT\FPT_CN5\PRN211\Code\Hosting\TestHosting\TestHosting\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\FPT\FPT_CN5\PRN211\Code\Hosting\TestHosting\TestHosting\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\FPT\FPT_CN5\PRN211\Code\Hosting\TestHosting\TestHosting\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\FPT\FPT_CN5\PRN211\Code\Hosting\TestHosting\TestHosting\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
