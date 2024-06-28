@@ -1,0 +1,26 @@
+﻿@page
+@model Eyeglass_ThaiDuong.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Login</h1>
+</div>
+
+@if (Model.errorMsg.Length > 0)
+{
+    <p class="text-danger">@Model.errorMsg</p>
+}
+
+<div class="row">
+    <form method="post">
+        <input type="text" asp-for="Email" placeholder="Enter Email" /> <br />
+        <span asp-validation-for="Email" class="text-danger"></span> <br />
+        <input type="password" asp-for="Pass" placeholder="Enter Password" /> <br />
+        <span asp-validation-for="Pass" class="text-danger"></span> <br />
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+

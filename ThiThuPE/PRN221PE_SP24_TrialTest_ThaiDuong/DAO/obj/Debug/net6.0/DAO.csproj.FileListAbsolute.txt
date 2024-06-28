@@ -1,0 +1,15 @@
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\DAO\bin\Debug\net6.0\DAO.deps.json
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\DAO\bin\Debug\net6.0\DAO.dll
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\DAO\bin\Debug\net6.0\DAO.pdb
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\DAO\bin\Debug\net6.0\BO.dll
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\DAO\bin\Debug\net6.0\BO.pdb
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\DAO\obj\Debug\net6.0\DAO.csproj.AssemblyReference.cache
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\DAO\obj\Debug\net6.0\DAO.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\DAO\obj\Debug\net6.0\DAO.AssemblyInfoInputs.cache
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\DAO\obj\Debug\net6.0\DAO.AssemblyInfo.cs
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\DAO\obj\Debug\net6.0\DAO.csproj.CoreCompileInputs.cache
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\DAO\obj\Debug\net6.0\DAO.csproj.CopyComplete
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\DAO\obj\Debug\net6.0\DAO.dll
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\DAO\obj\Debug\net6.0\refint\DAO.dll
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\DAO\obj\Debug\net6.0\DAO.pdb
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\DAO\obj\Debug\net6.0\ref\DAO.dll

@@ -1,0 +1,17 @@
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\bin\Debug\net6.0\Repo.deps.json
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\bin\Debug\net6.0\Repo.dll
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\bin\Debug\net6.0\Repo.pdb
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\bin\Debug\net6.0\BO.dll
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\bin\Debug\net6.0\DAO.dll
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\bin\Debug\net6.0\DAO.pdb
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\bin\Debug\net6.0\BO.pdb
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\obj\Debug\net6.0\Repo.csproj.AssemblyReference.cache
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\obj\Debug\net6.0\Repo.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\obj\Debug\net6.0\Repo.AssemblyInfoInputs.cache
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\obj\Debug\net6.0\Repo.AssemblyInfo.cs
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\obj\Debug\net6.0\Repo.csproj.CoreCompileInputs.cache
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\obj\Debug\net6.0\Repo.csproj.CopyComplete
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\obj\Debug\net6.0\Repo.dll
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\obj\Debug\net6.0\refint\Repo.dll
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\obj\Debug\net6.0\Repo.pdb
+D:\FPT\FPT_CN7\PRN221\Code\ThiThuPE\PRN221PE_SP24_TrialTest_ThaiDuong\Repo\obj\Debug\net6.0\ref\Repo.dll

@@ -1,0 +1,30 @@
+{
+  "profiles": {
+    "Equipments_HuynhNguyenThaiDuong": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "Login",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7252;http://localhost:5258"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "Login",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:38688",
+      "sslPort": 44351
+    }
+  }
+}
