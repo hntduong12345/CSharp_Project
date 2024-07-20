@@ -10,6 +10,6 @@ namespace Repository
 {
     public class StyleRepository
     {
-        public List<Style> GetAllStyles() => StyleDAO.Instance.GetAllStyles();
+        public async Task<List<Style>> GetAllStyles() => await StyleDAO.Instance.GetAllStyles();
     }
 }

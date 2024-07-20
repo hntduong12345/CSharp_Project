@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Newtonsoft.Json;
 using PEPRN231_SU24TrialTest_StudentFullname_FE.Utils;
 using System.Text.Json;
 
@@ -10,11 +11,11 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_FE.Pages.WatercolorsPainting
     {
         public async Task<IActionResult> OnGetAsync()
         {
-            var res = await HttpRequestUtil.SendGetRequest($"{HttpRequestUtil.BaseURL}/api/Style/all");
+            var res = await HttpRequestUtil.SendGetRequest($"{HttpRequestUtil.BaseURL}/api/Style/all", HttpContext.Session.GetString("accessToken"));
             if (res.IsSuccessStatusCode)
             {
                 var content = await res.Content.ReadAsStringAsync();
-                var styles = JsonSerializer.Deserialize<List<Models.Style>>(content) ?? new List<Models.Style>();
+                var styles = JsonConvert.DeserializeObject<List<Models.Style>>(content) ?? new List<Models.Style>();
                 ViewData["StyleId"] = new SelectList(styles, "StyleId", "StyleName");
             }
             return Page();
@@ -37,7 +38,7 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_FE.Pages.WatercolorsPainting
                 return Page();
             }
 
-            var url = $"{HttpRequestUtil.BaseURL}/odata/WatercolorsPainting/{this.Painting.PaintingId}";
+            var url = $"{HttpRequestUtil.BaseURL}/odata/WatercolorsPainting";
             var response = await HttpRequestUtil.SendRequestWithBody<Models.WatercolorsPainting>(this.Painting, url, HttpContext.Session.GetString("accessToken"), "Post");
             if (!response.IsSuccessStatusCode)
             {

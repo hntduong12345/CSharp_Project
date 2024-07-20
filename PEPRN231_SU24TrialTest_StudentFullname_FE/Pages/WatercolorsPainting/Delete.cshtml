@@ -21,10 +21,22 @@
             @Html.DisplayNameFor(model => model.Painting.PaintingName)
         </dt>
         <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Painting.PaintingName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Painting.PaintingDescription)
+        </dt>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Painting.PaintingDescription)
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Painting.PaintingAuthor)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Painting.PaintingAuthor)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Painting.Price)
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Painting.Price)
@@ -33,8 +45,17 @@
             @Html.DisplayNameFor(model => model.Painting.PublishYear)
         </dt>
         <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Painting.PublishYear)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Painting.CreatedDate)
+        </dt>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Painting.CreatedDate)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Painting.Style)
+        </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Painting.Style.StyleName)
         </dd>

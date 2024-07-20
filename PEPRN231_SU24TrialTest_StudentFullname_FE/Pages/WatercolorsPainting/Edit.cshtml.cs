@@ -32,6 +32,7 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_FE.Pages.WatercolorsPainting
                                                 new Models.WatercolorsPainting();
                 this.Painting = data;
             }
+
             var res = await HttpRequestUtil.SendGetRequest($"{HttpRequestUtil.BaseURL}/api/Style/all", HttpContext.Session.GetString("accessToken"));
             if (res.IsSuccessStatusCode)
             {

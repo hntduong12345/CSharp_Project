@@ -17,9 +17,9 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
 
         [HttpGet("all")]
         [Authorize(Roles = "2,3")]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            var result = _styleRepository.GetAllStyles();
+            var result = await _styleRepository.GetAllStyles();
             return Ok(result);
         }
     }

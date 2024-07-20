@@ -1,4 +1,5 @@
 ﻿using BO.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,9 +30,9 @@ namespace DataAccessObject
                 _context = new WatercolorsPainting2024DBContext();
         }
 
-        public List<Style> GetAllStyles()
+        public async Task<List<Style>> GetAllStyles()
         {
-            return _context.Styles.ToList();
+            return await _context.Styles.ToListAsync();
         }
     }
 }

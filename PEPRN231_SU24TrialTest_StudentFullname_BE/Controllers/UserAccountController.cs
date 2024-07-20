@@ -16,9 +16,9 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
         }
 
         [HttpPost("login")]
-        public IActionResult Login(AuthenticationDTO request)
+        public async Task<IActionResult> Login(AuthenticationDTO request)
         {
-            AuthenDTO result = _userAccountRepository.Login(request);
+            AuthenDTO result = await _userAccountRepository.Login(request);
             if(result != null)
             {
                 return Ok(result.Token);

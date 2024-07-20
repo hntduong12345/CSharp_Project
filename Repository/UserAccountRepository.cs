@@ -12,6 +12,6 @@ namespace Repository
 {
     public class UserAccountRepository
     {
-        public AuthenDTO Login(AuthenticationDTO request) => UserAccountDAO.Instance.Login(request);
+        public async Task<AuthenDTO> Login(AuthenticationDTO request) => await UserAccountDAO.Instance.Login(request);
     }
 }

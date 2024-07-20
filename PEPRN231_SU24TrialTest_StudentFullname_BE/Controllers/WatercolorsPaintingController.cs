@@ -21,24 +21,24 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
 
         [EnableQuery]
         [Authorize(Roles = "2,3")]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            var result = _watercolorsPaintingRepository.GetAll();
+            var result = await _watercolorsPaintingRepository.GetAll();
             return Ok(result);
         }
 
         [EnableQuery]
         [Authorize(Roles = "2,3")]
-        public IActionResult Get([FromRoute]string key)
+        public async Task<IActionResult> Get([FromRoute]string key)
         {
-            var result = _watercolorsPaintingRepository.GetById(key);
+            var result = await _watercolorsPaintingRepository.GetById(key);
             if (result == null) return BadRequest("Cannot find painting");
 
             return Ok(result);
         }
 
         [Authorize(Roles = "3")]
-        public IActionResult Post([FromBody] WatercolorsPaintingDTO paint)
+        public async Task<IActionResult> Post([FromBody] WatercolorsPaintingDTO paint)
         {
             if (!ModelState.IsValid)
             {
@@ -54,13 +54,13 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
                 return BadRequest("Invalid PaintingName format");
             }
 
-            var result = _watercolorsPaintingRepository.Create(paint);
+            var result = await _watercolorsPaintingRepository.Create(paint);
             if (result.StatusCode == -1) return Conflict(result.Message);
             return Ok(result.Message);
         }
 
         [Authorize(Roles = "3")]
-        public IActionResult Put([FromRoute] string key, [FromBody]UpdateWatercolorsPaintingDTO paint)
+        public async Task<IActionResult> Put([FromRoute] string key, [FromBody]UpdateWatercolorsPaintingDTO paint)
         {
             if (!ModelState.IsValid)
             {
@@ -76,15 +76,15 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
                 return BadRequest("Invalid PaintingName format");
             }
 
-            var result = _watercolorsPaintingRepository.Update(key, paint);
+            var result = await _watercolorsPaintingRepository.Update(key, paint);
             if (result.StatusCode == -1) return Conflict(result.Message);
             return Ok(result.Message);
         }
 
         [Authorize(Roles = "3")]
-        public IActionResult Delete([FromRoute]string key)
+        public async Task<IActionResult> Delete([FromRoute]string key)
         {
-            var result = _watercolorsPaintingRepository.Delete(key);
+            var result = await _watercolorsPaintingRepository.Delete(key);
             if (result.StatusCode == -1) return Conflict(result.Message);
             return Ok(result.Message);
         }
@@ -92,9 +92,9 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
         [EnableQuery]
         [Authorize(Roles = "2,3")]
         [HttpGet("WatercolorsPainting/search")]
-        public IActionResult GetSearch(string searchValue)
+        public async Task<IActionResult> GetSearch(string searchValue)
         {
-            var result = _watercolorsPaintingRepository.Search(searchValue);
+            var result = await _watercolorsPaintingRepository.Search(searchValue);
             return Ok(result);
         }
     }

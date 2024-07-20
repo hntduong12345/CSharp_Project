@@ -31,26 +31,26 @@ namespace DataAccessObject
                 _context = new WatercolorsPainting2024DBContext();
         }
 
-        public List<WatercolorsPainting> GetAll()
+        public async Task<List<WatercolorsPainting>> GetAll()
         {
-            return _context.WatercolorsPaintings.Include(x => x.Style).ToList();
+            return await _context.WatercolorsPaintings.Include(x => x.Style).ToListAsync();
         }
 
-        public WatercolorsPainting GetById(string id)
+        public async Task<WatercolorsPainting> GetById(string id)
         {
-            return _context.WatercolorsPaintings.Include(x => x.Style).FirstOrDefault(x => x.PaintingId.Equals(id));
+            return await _context.WatercolorsPaintings.Include(x => x.Style).FirstOrDefaultAsync(x => x.PaintingId.Equals(id));
         }
 
-        public ResultData Delete(string id)
+        public async Task<ResultData> Delete(string id)
         {
             try
             {
-                WatercolorsPainting paint = _context.WatercolorsPaintings.FirstOrDefault(x => x.PaintingId.Equals(id));
+                WatercolorsPainting paint = await _context.WatercolorsPaintings.FirstOrDefaultAsync(x => x.PaintingId.Equals(id));
                 if (paint == null)
                     return new ResultData { StatusCode = -1, Message = "Cannot find painting" };
 
                 _context.WatercolorsPaintings.Remove(paint);
-                _context.SaveChangesAsync();
+                await _context.SaveChangesAsync();
                 return new ResultData();
             }
             catch (Exception ex)
@@ -64,11 +64,12 @@ namespace DataAccessObject
             }
         }
 
-        public ResultData Create(WatercolorsPaintingDTO paint)
+        public async Task<ResultData> Create(WatercolorsPaintingDTO paint)
         {
             try
             {
-                if (GetById(paint.PaintingId) != null) 
+                WatercolorsPainting currentPaint = await _context.WatercolorsPaintings.FirstOrDefaultAsync(x => x.PaintingId.Equals(paint.PaintingId));
+                if (currentPaint != null) 
                     return new ResultData { StatusCode = -1, Message = "Painting has already existed!"};
 
                 WatercolorsPainting newPaint = new WatercolorsPainting()
@@ -84,7 +85,7 @@ namespace DataAccessObject
                 };
 
                 _context.WatercolorsPaintings.Add(newPaint);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
                 return new ResultData();
             }
             catch (Exception ex)
@@ -98,12 +99,12 @@ namespace DataAccessObject
             }
         }
 
-        public ResultData Update(string id, UpdateWatercolorsPaintingDTO paint)
+        public async Task<ResultData> Update(string id, UpdateWatercolorsPaintingDTO paint)
         {
             try
             {
-                WatercolorsPainting updatedPaint = GetById(id);
-                if(updatedPaint == null) 
+                WatercolorsPainting updatedPaint = await _context.WatercolorsPaintings.FirstOrDefaultAsync(x => x.PaintingId.Equals(id));
+                if (updatedPaint == null) 
                     return new ResultData { StatusCode = -1, Message = "Cannot find painting" };
 
                 updatedPaint.PaintingName = paint.PaintingName;
@@ -114,7 +115,7 @@ namespace DataAccessObject
                 updatedPaint.StyleId = paint.StyleId;
 
                 _context.Update(updatedPaint);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
                 return new ResultData();
             }
             catch (Exception ex)
@@ -127,12 +128,12 @@ namespace DataAccessObject
             }
         }
 
-        public List<WatercolorsPainting> Search(string searchValue)
+        public async Task<List<WatercolorsPainting>> Search(string searchValue)
         {
-            return _context.WatercolorsPaintings
+            return await _context.WatercolorsPaintings
                 .Include(x => x.Style)
                 .Where(x => x.PublishYear.ToString().Contains(searchValue.ToString()) ||
-                            x.PaintingAuthor.Contains(searchValue)).ToList();
+                            x.PaintingAuthor.Contains(searchValue)).ToListAsync();
         }
     }
 }
