@@ -95,8 +95,15 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
         [HttpGet("WatercolorsPainting/search")]
         public async Task<IActionResult> GetSearch(string searchValue)
         {
-            var result = await _watercolorsPaintingService.Search(searchValue);
-            return Ok(result);
+            try
+            {
+                var result = await _watercolorsPaintingService.Search(searchValue);
+                return Ok(result);
+            }
+            catch(Exception ex)
+            {
+                return Conflict(ex.Message);
+            }
         }
     }
 }

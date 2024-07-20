@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BO", "BO\BO.csproj", "{2FE1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PEPRN231_SU24TrialTest_StudentFullname_FE", "PEPRN231_SU24TrialTest_StudentFullname_FE\PEPRN231_SU24TrialTest_StudentFullname_FE.csproj", "{97EF6458-6C41-4C44-ADF8-535DBD3B5B25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{38543B99-240D-4B20-B8A9-440F8B10F505}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{97EF6458-6C41-4C44-ADF8-535DBD3B5B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97EF6458-6C41-4C44-ADF8-535DBD3B5B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97EF6458-6C41-4C44-ADF8-535DBD3B5B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38543B99-240D-4B20-B8A9-440F8B10F505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38543B99-240D-4B20-B8A9-440F8B10F505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38543B99-240D-4B20-B8A9-440F8B10F505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38543B99-240D-4B20-B8A9-440F8B10F505}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -130,6 +130,11 @@ namespace DataAccessObject
 
         public async Task<List<WatercolorsPainting>> Search(string searchValue)
         {
+            if (String.IsNullOrEmpty(searchValue))
+            {
+                searchValue = string.Empty;
+            }
+
             return await _context.WatercolorsPaintings
                 .Include(x => x.Style)
                 .Where(x => x.PublishYear.ToString().Contains(searchValue.ToString()) ||
