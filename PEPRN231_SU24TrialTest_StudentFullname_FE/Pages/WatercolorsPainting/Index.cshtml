@@ -1,0 +1,83 @@
+﻿@page
+@model PEPRN231_SU24TrialTest_StudentFullname_FE.Pages.WatercolorsPainting.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<form method="post">
+    <input asp-for="SearchValue" />
+    <button type="submit">Search</button>
+</form>
+
+@if (HttpContext.Session.GetString("Role").Equals("3"))
+{
+    <p>
+        <a asp-page="Create">Create New</a>
+    </p>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Painting[0].PaintingName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Painting[0].PaintingDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Painting[0].PaintingAuthor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Painting[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Painting[0].PublishYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Painting[0].CreatedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Painting[0].Style)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Painting)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PaintingName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PaintingDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PaintingAuthor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PublishYear)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Style.StyleName)
+                </td>
+                @if (HttpContext.Session.GetString("Role").Equals("3"))
+                {
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.PaintingId">Edit</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.PaintingId">Delete</a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
