@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Repository;
+using Service;
 
 namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
 {
@@ -9,17 +10,17 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
     [ApiController]
     public class StyleController : ControllerBase
     {
-        private readonly StyleRepository _styleRepository;
-        public StyleController()
+        private readonly  IStyleService _styleService;
+        public StyleController(IStyleService styleService)
         {
-            _styleRepository = new StyleRepository();
+            _styleService = styleService;
         }
 
         [HttpGet("all")]
         [Authorize(Roles = "2,3")]
         public async Task<IActionResult> GetAll()
         {
-            var result = await _styleRepository.GetAllStyles();
+            var result = await _styleService.GetAllStyles();
             return Ok(result);
         }
     }

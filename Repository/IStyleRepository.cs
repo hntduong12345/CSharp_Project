@@ -1,5 +1,4 @@
 ﻿using BO.Models;
-using DataAccessObject;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class StyleRepository : IStyleRepository
+    public interface IStyleRepository
     {
-        public async Task<List<Style>> GetAllStyles() => await StyleDAO.Instance.GetAllStyles();
+        public Task<List<Style>> GetAllStyles();
     }
 }

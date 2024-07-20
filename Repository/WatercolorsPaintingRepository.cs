@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class WatercolorsPaintingRepository
+    public class WatercolorsPaintingRepository : IWatercolorsPaintingRepository
     {
         public async Task<List<WatercolorsPainting>> GetAll() => await WatercolorsPaintingDAO.Instance.GetAll();
         public async Task<WatercolorsPainting> GetById(string id) =>await WatercolorsPaintingDAO.Instance.GetById(id);

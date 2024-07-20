@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class UserAccountRepository
+    public class UserAccountRepository : IUserAccountRepository
     {
         public async Task<AuthenDTO> Login(AuthenticationDTO request) => await UserAccountDAO.Instance.Login(request);
     }

@@ -5,6 +5,8 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OData.Edm;
 using Microsoft.OData.ModelBuilder;
 using Microsoft.OpenApi.Models;
+using Repository;
+using Service;
 using System.Reflection.Metadata;
 using System.Security.Principal;
 using System.Text;
@@ -45,6 +47,13 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 //builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IStyleRepository, StyleRepository>();
+builder.Services.AddScoped<IStyleService, StyleService>();
+builder.Services.AddScoped<IUserAccountRepository, UserAccountRepository>();
+builder.Services.AddScoped<IUserAccountService, UserAccountService>();
+builder.Services.AddScoped<IWatercolorsPaintingRepository, WatercolorsPaintingRepository>();
+builder.Services.AddScoped<IWatercolorsPaintingService, WatercolorsPaintingService>();
 
 builder.Services.AddCors(o =>
 {

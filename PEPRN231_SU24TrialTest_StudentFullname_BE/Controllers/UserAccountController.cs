@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Repository;
+using Service;
 
 namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
 {
@@ -9,16 +10,16 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
     [ApiController]
     public class UserAccountController : ControllerBase
     {
-        private readonly UserAccountRepository _userAccountRepository;
-        public UserAccountController()
+        private readonly IUserAccountService _userAccountService;
+        public UserAccountController(IUserAccountService userAccountService)
         {
-            _userAccountRepository = new UserAccountRepository();
+            _userAccountService = userAccountService;
         }
 
         [HttpPost("login")]
         public async Task<IActionResult> Login(AuthenticationDTO request)
         {
-            AuthenDTO result = await _userAccountRepository.Login(request);
+            AuthenDTO result = await _userAccountService.Login(request);
             if(result != null)
             {
                 return Ok(result.Token);

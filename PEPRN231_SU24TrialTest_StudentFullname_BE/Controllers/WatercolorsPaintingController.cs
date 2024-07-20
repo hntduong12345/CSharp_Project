@@ -8,22 +8,23 @@ using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.OData.Routing.Controllers;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Repository;
+using Service;
 
 namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
 {
     public class WatercolorsPaintingController : ODataController
     {
-        public WatercolorsPaintingRepository _watercolorsPaintingRepository;
-        public WatercolorsPaintingController()
+        public IWatercolorsPaintingService _watercolorsPaintingService;
+        public WatercolorsPaintingController(IWatercolorsPaintingService watercolorsPaintingService)
         {
-            _watercolorsPaintingRepository = new WatercolorsPaintingRepository();
+            _watercolorsPaintingService = watercolorsPaintingService;
         }
 
         [EnableQuery]
         [Authorize(Roles = "2,3")]
         public async Task<IActionResult> Get()
         {
-            var result = await _watercolorsPaintingRepository.GetAll();
+            var result = await _watercolorsPaintingService.GetAll();
             return Ok(result);
         }
 
@@ -31,7 +32,7 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
         [Authorize(Roles = "2,3")]
         public async Task<IActionResult> Get([FromRoute]string key)
         {
-            var result = await _watercolorsPaintingRepository.GetById(key);
+            var result = await _watercolorsPaintingService.GetById(key);
             if (result == null) return BadRequest("Cannot find painting");
 
             return Ok(result);
@@ -54,7 +55,7 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
                 return BadRequest("Invalid PaintingName format");
             }
 
-            var result = await _watercolorsPaintingRepository.Create(paint);
+            var result = await _watercolorsPaintingService.Create(paint);
             if (result.StatusCode == -1) return Conflict(result.Message);
             return Ok(result.Message);
         }
@@ -76,7 +77,7 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
                 return BadRequest("Invalid PaintingName format");
             }
 
-            var result = await _watercolorsPaintingRepository.Update(key, paint);
+            var result = await _watercolorsPaintingService.Update(key, paint);
             if (result.StatusCode == -1) return Conflict(result.Message);
             return Ok(result.Message);
         }
@@ -84,7 +85,7 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
         [Authorize(Roles = "3")]
         public async Task<IActionResult> Delete([FromRoute]string key)
         {
-            var result = await _watercolorsPaintingRepository.Delete(key);
+            var result = await _watercolorsPaintingService.Delete(key);
             if (result.StatusCode == -1) return Conflict(result.Message);
             return Ok(result.Message);
         }
@@ -94,7 +95,7 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_BE.Controllers
         [HttpGet("WatercolorsPainting/search")]
         public async Task<IActionResult> GetSearch(string searchValue)
         {
-            var result = await _watercolorsPaintingRepository.Search(searchValue);
+            var result = await _watercolorsPaintingService.Search(searchValue);
             return Ok(result);
         }
     }
