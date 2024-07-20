@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Models
+namespace PEPRN231_SU24TrialTest_StudentFullname_FE.Models
 {
     public partial class WatercolorsPainting
     {
@@ -16,6 +16,6 @@ namespace Models
         public DateTime? CreatedDate { get; set; }
         public string? StyleId { get; set; }
 
-        public virtual Style? Style { get; set; }
+        public virtual Style? Style { get; set; }    
     }
 }

@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Newtonsoft.Json;
+using PEPRN231_SU24TrialTest_StudentFullname_FE.Models;
 using PEPRN231_SU24TrialTest_StudentFullname_FE.Utils;
 
 namespace PEPRN231_SU24TrialTest_StudentFullname_FE.Pages.WatercolorsPainting
@@ -20,7 +21,10 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_FE.Pages.WatercolorsPainting
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
-                this.Painting = JsonConvert.DeserializeObject<List<Models.WatercolorsPainting>>(content) ?? new List<Models.WatercolorsPainting>();
+                OdataResponse<List<Models.WatercolorsPainting>> data = JsonConvert.DeserializeObject<OdataResponse<List<Models.WatercolorsPainting>>>(content) ??
+                                                                                                        new OdataResponse<List<Models.WatercolorsPainting>>();
+
+                this.Painting = data.Value;
             }
         }
 

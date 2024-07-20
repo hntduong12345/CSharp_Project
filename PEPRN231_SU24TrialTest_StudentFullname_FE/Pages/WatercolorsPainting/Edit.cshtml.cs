@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Newtonsoft.Json;
+using PEPRN231_SU24TrialTest_StudentFullname_FE.Models;
 using PEPRN231_SU24TrialTest_StudentFullname_FE.Utils;
 using System.Reflection;
 using System.Text.Json;
@@ -15,7 +17,7 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_FE.Pages.WatercolorsPainting
         [BindProperty]
         public string Message { get; set; } = string.Empty;
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public async Task<IActionResult> OnGetAsync(string id)
         {
             var role = HttpContext.Session.GetString("Role");
             if (role != "3") return Forbid();
@@ -25,14 +27,16 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_FE.Pages.WatercolorsPainting
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
-                var WatercolorsPaintings = JsonSerializer.Deserialize<List<Models.WatercolorsPainting>>(content) ?? new List<Models.WatercolorsPainting>();
-                this.Painting = WatercolorsPaintings.FirstOrDefault();
+                Models.WatercolorsPainting data 
+                    = JsonConvert.DeserializeObject<Models.WatercolorsPainting>(content) ??
+                                                new Models.WatercolorsPainting();
+                this.Painting = data;
             }
-            var res = await HttpRequestUtil.SendGetRequest($"{HttpRequestUtil.BaseURL}/api/Style/all");
+            var res = await HttpRequestUtil.SendGetRequest($"{HttpRequestUtil.BaseURL}/api/Style/all", HttpContext.Session.GetString("accessToken"));
             if (res.IsSuccessStatusCode)
             {
                 var content = await res.Content.ReadAsStringAsync();
-                var styles = JsonSerializer.Deserialize<List<Models.Style>>(content) ?? new List<Models.Style>();
+                var styles = JsonConvert.DeserializeObject<List<Models.Style>>(content) ?? new List<Models.Style>();
                 ViewData["StyleId"] = new SelectList(styles, "StyleId", "StyleName");
             }
             return Page();

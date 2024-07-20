@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Newtonsoft.Json;
 using PEPRN231_SU24TrialTest_StudentFullname_FE.Utils;
 using System.ComponentModel.DataAnnotations;
 using System.IdentityModel.Tokens.Jwt;
@@ -12,7 +13,7 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_FE.Pages
     {
         [BindProperty]
         [Required(ErrorMessage = "Email is required!")]
-        public string Email { get; set; }
+        public string UserEmail { get; set; }
 
         [BindProperty]
         [Required(ErrorMessage = "Password is required!")]
@@ -34,13 +35,13 @@ namespace PEPRN231_SU24TrialTest_StudentFullname_FE.Pages
             var response = await HttpRequestUtil.SendRequestWithBody(
                 new
                 {
-                    UserEmail = Email,
+                    Email = UserEmail,
                     Password = Pass
                 }, "/api/UserAccount/login");
 
             if (response.IsSuccessStatusCode)
             {
-                var accessToken = JsonNode.Parse(await response.Content.ReadAsStringAsync());
+                var accessToken = JsonConvert.DeserializeObject(await response.Content.ReadAsStringAsync());
                 HttpContext.Session.SetString("accessToken", accessToken.ToString());
 
                 var handler = new JwtSecurityTokenHandler();

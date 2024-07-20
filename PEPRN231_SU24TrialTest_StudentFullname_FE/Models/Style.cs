@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Models
+namespace PEPRN231_SU24TrialTest_StudentFullname_FE.Models
 {
     public partial class Style
     {
