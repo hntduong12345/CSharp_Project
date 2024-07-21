@@ -6,6 +6,8 @@ using Microsoft.Extensions.Configuration;
 
 namespace BO.Models
 {
+
+    //Scaffold-DbContext "Data Source=(local);Database=PosSystem;User Id=sa;Password=12345;MultipleActiveResultSets=true;TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
     public partial class WatercolorsPainting2024DBContext : DbContext
     {
         public WatercolorsPainting2024DBContext()
