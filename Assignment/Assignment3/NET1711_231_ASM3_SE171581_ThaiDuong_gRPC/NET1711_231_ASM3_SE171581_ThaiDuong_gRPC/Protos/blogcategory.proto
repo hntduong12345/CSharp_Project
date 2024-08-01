@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option csharp_namespace = "NET1711_231_ASM3_SE171581_ThaiDuong_gRPC.Protos";
+
+service BlogCategoryCRUD{
+	rpc SelectAll (EmptyBlogCategory) returns (BlogCategories);
+	rpc SelectByID (BlogCategoryFilter) returns (BlogCategory);
+	rpc Insert (BlogCategory) returns (EmptyBlogCategory);
+	rpc Update (BlogCategory) returns (EmptyBlogCategory);
+	rpc Delete (BlogCategoryFilter) returns (EmptyBlogCategory);
+}
+
+message EmptyBlogCategory{
+
+}
+
+message BlogCategory{
+	int32 ID = 1;
+	string Name = 2;
+}
+
+message BlogCategories{
+	repeated BlogCategory items = 1;
+}
+
+message BlogCategoryFilter{
+	int32 ID = 1;
+}

@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option csharp_namespace = "NET1711_231_ASM3_SE171581_ThaiDuong_gRPC.Protos";
+
+import "google/protobuf/timestamp.proto";
+
+service BlogCRUD{
+	rpc SelectAll (EmptyBlog) returns (Blogs);
+	rpc SelectByID (BlogFilter) returns (Blog);
+	rpc Insert (Blog) returns (EmptyBlog);
+	rpc Update (Blog) returns (EmptyBlog);
+	rpc Delete (BlogFilter) returns (EmptyBlog);
+}
+
+message EmptyBlog{
+
+}
+
+message Blog{
+	int32 ID = 1;
+	int32 AccountID = 2;
+	int32 BlogCategoryID = 3;
+	string Title = 4;
+	string DocUrl = 5;
+	string ImageUrl = 6;
+	string CreateAt = 7;
+	string UpdateAt = 8;
+}
+
+message Blogs{
+	repeated Blog items = 1;
+}
+
+message BlogFilter{
+	int32 ID = 1;
+}

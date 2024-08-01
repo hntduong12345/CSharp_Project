@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "NET1711_231_ASM3_SE171581_ThaiDuong_gRPC": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5023;https://localhost:7128",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

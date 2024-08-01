@@ -1,0 +1,27 @@
+﻿@page
+@model PEPRN231_SU24_009909_HuynhNguyenThaiDuong_FE.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Login</h1>
+</div>
+
+
+<div class="text-center">
+    @if (Model.errorMsg.Length > 0)
+    {
+        <p class="text-danger">@Model.errorMsg</p>
+    }
+
+    <div class="row">
+        <form method="post">
+            <input type="text" asp-for="UserEmail" placeholder="Enter Email" /> <br />
+            <span asp-validation-for="UserEmail" class="text-danger"></span> <br />
+            <input type="password" asp-for="Pass" placeholder="Enter Password" /> <br />
+            <span asp-validation-for="Pass" class="text-danger"></span> <br />
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</div>}

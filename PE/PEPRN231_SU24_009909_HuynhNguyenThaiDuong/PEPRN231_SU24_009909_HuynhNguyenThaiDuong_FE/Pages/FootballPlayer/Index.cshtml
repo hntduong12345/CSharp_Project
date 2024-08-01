@@ -1,0 +1,78 @@
+﻿@page
+@model PEPRN231_SU24TrialTest_StudentFullname_FE.Pages.WatercolorsPainting.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<form method="post">
+    <label>Achievements:</label><input asp-for="SearchValue" /><br/>
+    <label>Nomination:</label><input asp-for="SearchValue2" /><br/>
+    <button type="submit">Search</button>
+</form>
+
+@if (HttpContext.Session.GetString("Role").Equals("1"))
+{
+    <p>
+        <a asp-page="Create">Create New</a>
+    </p>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Player[0].FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Player[0].Achievements)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Player[0].Birthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Player[0].PlayerExperiences)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Player[0].Nomination)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Player[0].FootballClub)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Player)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Achievements)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Birthday)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PlayerExperiences)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nomination)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FootballClub.ClubName)
+                </td>
+                @if (HttpContext.Session.GetString("Role").Equals("1"))
+                {
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.FootballPlayerId">Edit</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.FootballPlayerId">Delete</a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

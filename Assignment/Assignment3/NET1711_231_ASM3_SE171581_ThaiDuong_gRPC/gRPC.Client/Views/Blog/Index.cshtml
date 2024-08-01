@@ -1,0 +1,230 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h3>To do List</h3>
+
+<div class="search-container">
+    <div class="search-filter">
+        <button id="filter-button" type="button" onclick="add();">
+            <span>
+                <p>Add New</p>
+            </span>
+        </button>
+    </div>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>AccountID</th>
+            <th>BlogCategoryID</th>
+            <th>Title</th>
+            <th>DocUrl</th>
+            <th>ImageUrl</th>
+            <th>CreateAt</th>
+            <th>UpdateAt</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody class="tblBlogList">
+    </tbody>
+</table>
+
+<div class="modal fade" id="topUpModal" tabindex="-1" aria-labelledby="topUpModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            @using (Html.BeginForm(null, null, FormMethod.Post, new { name = "frm", id = "frm" }))
+            {
+                @Html.AntiForgeryToken()
+                <div class="modal-header">
+                    <h5 class="modal-title" id="topUpModalLabel">TopUp Account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="topUpModalContent"></div>
+                </div>
+                <div class="modal-footer">
+                    <button id="btSave" type="button" class="btn btn-primary">Save</button>
+                    <button id="btClose" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+
+@section scripts {
+    <script type="text/javascript">
+        var method = "";
+
+        $(document).ready(function () {
+            loadData();
+
+            $("#btClose").click(function () { $("#btSave").show() })
+
+            $("#btSave").click(function () {
+                var formData = new FormData();
+                formData.append("ToDoID", $("#ToDoID").val());
+                formData.append("Name", $("#Name").val());
+                formData.append("Description", $("#Description").val());
+                formData.append("httpMethod", method);
+
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("Save", "Blog")',
+                    //contentType: 'application/json;charset=utf-8',
+                    //dataType: "json",
+                    processData: false,
+                    contentType: false,
+                    data: formData,
+                    success: function (result) {
+                        if (result.status >= 1) {
+                            $('#topUpModal').modal('hide');
+                            loadData();
+                        }
+                        alert(result.message);
+                    },
+                    error: function (xhr, error) {
+                        //alert(xhr.responseText);
+                        console.log(xhr);
+                    }
+                });
+            });
+        });
+
+        function loadData() {
+            $.ajax({
+                url: '@Url.Action("GetBlogList", "Blog")',
+                type: "GET",
+                contentType: "application/json;charset=utf-8",
+                dataType: "json",
+                success: function (result) {
+                    var html = "";
+                    $.each(result, function (key, item) {
+                        html += '<tr>';
+                        html += '<td>' + item.id + '</td>';
+                        html += '<td>' + item.accountID + '</td>';
+                        html += '<td>' + item.blogCategoryID + '</td>';
+                        html += '<td>' + item.title + '</td>';
+                        html += '<td>' + item.docUrl + '</td>';
+                        html += '<td>' + item.imageUrl + '</td>';
+                        html += '<td>' + item.createAt + '</td>';
+                        html += '<td>' + item.updateAt + '</td>';
+                        html += '<td class="action-links">';
+                        html += '<a href="#" onclick = "return detail(\'' + item.id + '\')" > Detail </a> <a href="#" onclick="return edit(\'' + item.id + '\')">Edit</a> <a href="#" onclick = "delele(\'' + item.id + '\')" > Delete </a></td > ';
+                        html += '</tr>';
+                    });
+                    $('.tblBlogList').html(html);
+                },
+                error: function (xhr, error) {
+                    alert(xhr.statusText);
+                }
+            })
+        }
+
+        function add() {
+            $("#topUpModalContent").html("");
+            $("#topUpModalLabel").html("Add New");
+            method = "POST";
+
+            $.ajax({
+                url: '@Url.Action("AddNew", "Blog")',
+                type: "GET",
+                success: function (result) {
+                    $("#topUpModalContent").html(result);
+                    $('#topUpModal').modal('show');
+                },
+                error: function (message) {
+                    alert(message);
+                }
+            });
+        }
+
+        function detail(id) {
+            $("#topUpModalContent").html("");
+            $("#topUpModalLabel").html("Detail");
+
+            $("#btClose").click(function () { $("#btSave").show() })
+
+            var formData = new FormData();
+            formData.append("id", id);
+
+            $.ajax({
+                url: '@Url.Action("Detail", "Blog")',
+                type: "POST",
+                // contentType: 'application/json;charset=utf-8',
+                // dataType: "json",
+                processData: false,
+                contentType: false,
+                data: formData,
+                success: function (result) {
+                    $("#topUpModalContent").html(result);
+                    $('#topUpModal').modal('show');
+                },
+                error: function (message) {
+                    console.log(message)
+                    alert(message);
+                }
+            });
+        }
+
+        function edit(id) {
+            $("#topUpModalContent").html("");
+            $("#topUpModalLabel").html("Update");
+            method = "PUT";
+
+            var formData = new FormData();
+            formData.append("id", id);
+
+            $.ajax({
+                url: '@Url.Action("Edit", "Blog")',
+                type: "POST",
+                //contentType: 'application/json;charset=utf-8',
+                //dataType: "json",
+                processData: false,
+                contentType: false,
+                data: formData,
+                success: function (result) {
+                    $("#topUpModalContent").html(result);
+                    $('#topUpModal').modal('show');
+                },
+                error: function (message) {
+                    console.log(message)
+                    alert(message);
+                }
+            });
+        }
+
+        function delele(id) {
+            var result = confirm("Are you sure to delete?");
+            method = "DELETE";
+            if (result) {
+                //alert(id);
+                var formData = new FormData();
+                formData.append("id", id);
+
+                $.ajax({
+                    url: '@Url.Action("Delete", "Blog")',
+                    type: "DELETE",
+                    //contentType: 'application/json;charset=utf-8',
+                    //dataType: "json",
+                    processData: false,
+                    contentType: false,
+                    data: formData,
+                    success: function (result) {
+                        if (result.status >= 1) {
+                            $('#topUpModal').modal('hide');
+                            loadData();
+                        }
+                    },
+                    error: function (message) {
+                        alert(message);
+                    }
+                });
+            }
+        }
+
+    </script>
+    }

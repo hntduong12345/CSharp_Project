@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+option csharp_namespace = "NET1711_231_ASM3_SE171581_ThaiDuong_gRPC.Protos";
+
+import "google/protobuf/empty.proto";
+
+service Greeter{
+	rpc getToDoItem(google.protobuf.Empty) returns (ToDo);
+}
+
+service ToDoCRUD{
+	rpc SelectAll (Empty) returns (ToDos);
+	rpc SelectByID (ToDoFilter) returns (ToDo);
+	rpc Insert (ToDo) returns (Empty);
+	rpc Update (ToDo) returns (Empty);
+	rpc Delete (ToDoFilter) returns (Empty);
+}
+
+message Empty{
+
+}
+
+message ToDo{
+	int32 ToDoID = 1;
+	string Name = 2;
+	string Description = 3;
+}
+
+message ToDos{
+	repeated ToDo items = 1;
+}
+
+message ToDoFilter{
+	int32 toDoID = 1;
+}

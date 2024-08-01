@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPC.Client.Protos";
+
+import "google/protobuf/timestamp.proto";
+
+service AccountCRUD{
+	rpc SelectAll (EmptyAcc) returns (Accounts);
+	rpc SelectByID (AccountFilter) returns (Account);
+	rpc Insert (Account) returns (EmptyAcc);
+	rpc Update (Account) returns (EmptyAcc);
+	rpc Delete (AccountFilter) returns (EmptyAcc);
+}
+
+message EmptyAcc{
+
+}
+
+message Account{
+	int32 ID = 1;
+	string Role = 2;
+	string FullName = 3;
+	string Email = 4;
+	string Password = 5;
+	string DateOfBirth = 6;
+	string Address = 7;
+	string Phone = 8;
+	int32 Point = 9;
+	string AvatarUrl = 10;
+	bool IsActive = 11;
+	string CreateAt = 12;
+}
+
+message Accounts{
+	repeated Account items = 1;
+}
+
+message AccountFilter{
+	int32 ID = 1;
+}

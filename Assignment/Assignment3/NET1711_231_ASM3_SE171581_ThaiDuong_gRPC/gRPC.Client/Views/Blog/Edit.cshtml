@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Edit";
+}
+
+@model gRPC.Client.Protos.Blog
+
+<div class="form-group row">
+    <div class="col-md-6">
+        @Html.HiddenFor(model => model.ID)
+    </div>
+</div>
+<div class="form-group row">
+    <div class="col-md-6">
+        <label for="1">AccountID:</label>
+        @Html.EditorFor(model => model.AccountID, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+    <div class="col-md-6">
+        <label for="1">BlogCategoryID:</label>
+        @Html.EditorFor(model => model.BlogCategoryID, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+    <div class="col-md-6">
+        <label for="1">Title:</label>
+        @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+    <div class="col-md-6">
+        <label for="1">DocUrl:</label>
+        @Html.EditorFor(model => model.DocUrl, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+    <div class="col-md-6">
+        <label for="1">ImageUrl:</label>
+        @Html.EditorFor(model => model.ImageUrl, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+</div>

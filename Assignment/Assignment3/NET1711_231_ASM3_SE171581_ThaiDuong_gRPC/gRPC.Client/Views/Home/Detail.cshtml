@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Add";
+}
+
+@model gRPC.Client.Protos.ToDo
+
+<div class="form-group row">
+    <div class="col-md-6">
+        <label for="1">ToDoId</label>
+        @Html.HiddenFor(model => model.ToDoID)
+    </div>
+</div>
+<div class="form-group row">
+    <div class="col-md-6">
+        <label for="1">Name:</label>
+        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+    <div class="col-md-6">
+        <label for="1">Description:</label>
+        @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+</div>
